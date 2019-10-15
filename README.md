@@ -2,6 +2,10 @@
 > Using shadowsocks-libev & simple-obfs with Docker.
 
 ![docker](https://img.shields.io/docker/pulls/mamoruio/docker-sslibev-obfs.svg?style=flat-square) ![size](https://img.shields.io/microbadger/image-size/mamoruio/docker-sslibev-obfs/19528k1-server.svg?style=flat-square) ![layer](https://img.shields.io/microbadger/layers/mamoruio/docker-sslibev-obfs/19528k1-server.svg?style=flat-square)
+
+## Issue
+Unknown issue: obfs do not work with Docker 18.03
+
 ## Intro
 This image let you simply deploy shadowsocks with obfs on your server.  
 
