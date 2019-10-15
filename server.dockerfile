@@ -57,8 +57,6 @@ RUN apk add --no-cache \
     && echo '{' > config.json \
     && echo '    "server": "0.0.0.0",' >> config.json \
     && echo '    "server_port": "8388",' >> config.json \
-    && echo '    "local_address": "127.0.0.1",' >> config.json \
-    && echo '    "local_port": 1080,' >> config.json \
     && echo '    "password": "mypassword",' >> config.json \
     && echo '    "timeout": 300,' >> config.json \
     && echo '    "method": "aes-256-cfb",' >> config.json \
